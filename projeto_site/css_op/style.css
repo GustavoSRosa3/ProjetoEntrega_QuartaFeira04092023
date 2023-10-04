@@ -32,8 +32,7 @@ h1 {
 .cabecalho {
     background-image: url(procurado_luffy.jpg); 
     background-repeat: no-repeat;
-    background-position: center;
-    opacity: ;
+    background-position: center;    
     max-width:519px;
     max-height: 900px;
     height: 800px;
