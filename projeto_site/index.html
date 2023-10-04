@@ -1,102 +1,182 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Pagina Inicial</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="style.css">
+    
+    
 </head>
 
- 
-
- 
 
 <!-- Pagina incial de apresentação do WebSite
 
- 
-
     Página dos nosso animes favoritos
 
- 
-
 * Menu de navegação *
-
 *Exposição no contéudo presente (Animes) -->
-
- 
 
 <body>
 
-    <section id="container-principal">
-
-        <div class="menu-topo">
-
-            <header>
-
-                <h2 class="title-header">Animes Favoritos</h2>
-
-            </header>
-
-        </div>
-
- 
-
-        <main class="body-images">
-
-            <div class="images-anime1">
-
-                <a href="#">
-
-                    <img src="css/imagem1.jpg.png" alt="one piece" class="img" id="img1"></a>
-
-                    <img src="css/capa_gif1.gif" alt="one piece" class="gif" id="gif1">
-
+    <main id="media-topo">
+        <section id="container-topo">
+            <div class="menu">
+                <header>
+                    <h2 class="title-header">Animes Favoritos</h2>
+                </header>
             </div>
+        </section>
+    </main>
 
-            <div class="images-anime2">
+    <main id="media-img-animes">
+        <section id="container-animes">
+            <main class="container-images">
+                <div class="images-anime1">
+                    <a href="Naruto Shippuden/naruto.html">
+                        <img src="Image/naruto-sasuke.jpg" alt="anime naruto" class="img" id="img1"></a>
+                    <img src="Image/naruto.gif" alt="gif naruto" class="gif" id="gif1">
+                </div>
 
-                <a href="#">
+                <div class="images-anime2">
+                    <a href="One Piece/onepiece.html"><img src="Image/capa1.jpg" alt="anime onepiece" class="img"
+                            id="img2">
+                        <img src="Image/capa_gif.gif" alt="gif onepiece" class="gif" id="gif2">
+                </div>
 
-                    <img src="css/imagem2.jpg.png" alt="one piece" class="img" id="img2"></a>
+                <div class="images-anime3">
+                    <a href="Attack On Titan/aot.html"><img src="Image/AtackOnTitan.jpg" alt="anime AOT" class="img"
+                            id="img3"></a>
+                    <img src="Image/AttackOnTitan-Apresentacao.gif" alt="gif attack on titan" class="gif" id="gif3">
+                </div>
+            </main>
+        </section>
+    </main>
 
-                    <img src="css/capa_gif2.gif" alt="one piece" class="gif" id="gif2">
+    <main id="media-legend-anime">
+        <section id="legend">
+            <div class="legend-anime" id="naruto">Naruto Shippuden</div>
+            <div class="legend-anime" id="onepiece">One Piece</div>
+            <div class="legend-anime" id="aot">Attack On Titan</div>
+        </section>
+    </main>
 
+    <main id="media-txt-resumo">
+        <main id="naruto-txt">
+            <div class="txt-resumo">
+                <h2 class="anime-resumo">Naruto Shippuden</h2>
+                <p><span class="txt-bold">Autor:</span> Masashi Kishimoto<br>
+                    <span class="txt-bold">Gêneros:</span> Ficção de aventura, Fantasia cômica, Artes marciais.<br>
+                    <span class="txt-bold">Episódios:</span> 720 ep |
+                    18 Temporadas
+                    Finalizada
+                </p>
             </div>
-
-            <div class="images-anime3">
-
-                <a href="#">
-
-                    <img src="css/imagem3.jpg.png" alt="one piece" class="img" id="img3"></a>
-
-                    <img src="css/capa_gif3.gif" alt="one piece" class="gif" id="gif3">
-
-            </div>
-
- 
-
-            
- 
-
-           
-
         </main>
+        <div class="circle-naruto"></div>
 
- 
+        <main id="onepiece-txt">
+            <div class="txt-resumo">
+                <h2 class="anime-resumo">One Piece</h2>
+                <p><span class="txt-bold">Autor:</span> Eiichiro Oda<br>
+                    <span class="txt-bold">Gêneros:</span> Ficção de aventura, Fantasia cômica, Artes marciais.<br>
+                    <span class="txt-bold">Episódios:</span> 1078 ep |
+                    20 Temporadas -
+                    Em Andamento
+                </p>
+            </div>
+        </main>
+        <div class="circle-onepiece"></div>
 
-   
+        <main id="aot-txt">
+            <div class="txt-resumo">
+                <h2 class="anime-resumo">Attack On Titan</h2>
+                <p><span class="txt-bold">Autor:</span> Hajime Isayama<br>
+                    <span class="txt-bold">Gêneros:</span> Ação, Fantasia sombria, Ficção pós-apocalíptica, Drama,
+                    Shōnen.<br>
+                    <span class="txt-bold">Episódios:</span> 88 ep |
+                    4 Temporadas -
+                    Em Andamento.
+                </p>
+            </div>
+        </main>
+        <div class="circle-aot"></div>
+    </main>
 
-    </section>
 
- 
+
+    <main id="media-footer">
+        <section id="footer">
+            <footer>
+
+                <section id="container-principal-footer">
+
+                    <main id="all-dados-footer">
+
+                        <main id="footer-titulos">
+                            <p class="by">Created by:</p>
+                            <p class="by-contato">Contato:</p>
+                        </main>
+
+                        <main id="name-container">
+                            <div class="created-by">
+                                <p class="by-name-container"><span class="seta">>></span><span class="by-name">Ismael
+                                        Nicolas</span><span class="seta" id="in">
+                                        <<</span>
+                                </p>
+
+                                <p class="by-name-container"><span class="seta">>></span><span class="by-name">Gustavo
+                                        Sorrila</span><span class="seta" id="gs">
+                                        <<</span>
+                                </p>
+
+                                <p class="by-name-container"><span class="seta">>></span><span class="by-name">Danilo
+                                        Silva</span><span class="seta" id="ds">
+                                        <<</span>
+                                </p>
+                            </div>
+                        </main>
+
+                        <section id="line-footer">
+                            <div class="separador-line"></div>
+                        </section>
+
+                        <main id="media-list">
+                        <div class="email-footer">
+                            <ul>
+                                <li class="list">ismael.ngsilva@senacsp.edu.br</li>
+                                <li class="list">gustavo.srosa3@senacsp.edu.br</li>
+                                <li class="list">danilo.vsfilgueira@senacsp.edu.br</li>
+                            </ul>
+                        </div>
+                        </main>
+
+                    </main>
+
+                    <div class="txt-copyr">
+                        <p id="copyright">&copy;2023 MyFandom-Animes</p>
+                    </div>
+                </section>
+            </footer>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </body>
+
 </html>

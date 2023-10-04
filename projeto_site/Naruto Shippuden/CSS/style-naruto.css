@@ -1,0 +1,290 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+
+  .container-bar {
+    width: 100%;
+    height: 90px;
+    background-color: #232a31;
+    padding: 0 2rem;
+  }
+
+  #home-btn {
+    padding: 15px 20px;
+    background-color: #FA9427;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  #home-btn:hover{
+    background-color: #f3a755;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .bar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .bar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+
+  .bar-items a {
+    color: #FA9427;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .bar-items a:hover {
+    color: #ccc;
+  }
+ 
+  .history-conteiner{
+    padding: 0 10px;
+    margin: 10px 200px;
+    text-align:justify;
+    display: flex;
+    border: 5px solid orangered;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .history-conteiner li{
+    list-style: none;
+  }
+
+  #classic h1{
+    color: #FA9427;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family:"Comic Sans MS";
+  }
+
+  #classic{
+    padding-bottom: 50px;
+  }
+  
+  #shippuden h2{
+    color: #FA9427;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family:"Comic Sans MS"
+  }
+
+  #shippuden{
+    padding-bottom: 80px;
+  }
+
+  .personage-container{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .personage-container h2{
+    color: #FA9427;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family:"Comic Sans MS"
+  }
+
+  .personage-container p{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .personage li{
+    padding: 10px 10px;
+  }
+
+  
+  #pers-naruto{
+    width: 200px;
+  }
+  #pers-sasuke{
+    width: 200px;
+  }
+  #pers-sakura{
+    width: 200px;
+  }
+  #pers-kakashi{
+    width: 200px;
+  }
+  #pers-minato{
+    width: 200px;
+  }
+  #pers-jiraya{
+    width: 200px;
+  }
+  #pers-itachi{
+    width: 200px;
+  }
+  #pers-orochimaru{
+    width: 200px;
+  }
+  #pers-madara{
+    width: 200px;
+  }
+  #pers-hashirama{
+    width: 200px;
+  }
+  #pers-tsunade{
+    width: 200px;
+  }
+
+
+.clas-container{ 
+  text-align: center;
+  padding-top: 30px;
+}
+
+table{
+  padding: 0 0;
+  margin: 10px 200px;
+  text-align:justify;
+  border: 5px solid orangered;
+  border-radius: 5px;
+  background-color: #e0bd98;
+}
+table td{
+  border: 5px solid orangered;
+  border-radius: 5px;
+}
+
+h2{
+  color: #FA9427;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family:"Comic Sans MS"
+}
+
+#cla-uchiha{
+    width: 200px;
+}
+#cla-hyuuga{
+    width: 200px;
+}
+#cla-senju{
+    width: 200px;
+}
+#cla-uzumaki{
+    width: 200px;
+}
+#cla-sarutobi{
+    width: 200px;
+}
+#cla-inuzuma{
+    width: 200px;
+}
+#cla-nara{
+    width: 200px;
+}
+#cla-yamanaka{
+    width: 200px;
+}
+#cla-akimichi{
+    width: 200px;
+}
+#cla-aburame{
+    width: 200px;
+}
+
+.curiosity-container{
+  padding: 0 10px;
+  margin: 10px 200px;
+  text-align:justify;
+  display: flex;
+  border: 5px solid orangered;
+  border-radius: 5px;
+  background-color: #fff;
+
+}
+
+.curiosity-container h2{
+  color: #FA9427;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family:"Comic Sans MS";
+  padding-top: 20px;
+  
+}
+.curiosity h2{
+  padding-bottom: 15px;
+  font-size: 35;
+}
+
+.curiosity p{
+  padding-bottom: 15px;
+}
+
+.origin{
+  text-align: justify;
+}
+.origin h3{
+  color: #FA9427;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family:"Comic Sans MS";
+  padding-top: 20px;
+}
+
+.womam {
+text-align: justify;
+}
+
+.womam h3 {
+  color: #FA9427;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family:"Comic Sans MS";
+  padding-top: 20px;
+}
+
+.cooking{
+  text-align: justify;
+}
+.cooking h3{
+  color: #FA9427;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family:"Comic Sans MS";
+  padding-top: 20px;
+}
+
+.first{
+  text-align: justify;
+}
+.first h3{
+  color: #FA9427;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family:"Comic Sans MS";
+  padding-top: 20px;
+}
+footer{
+  background-color: #ccc;
+}
+
+body {
+  background-image: url(../CSS/Midias/capa-back.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 100%; 
+  background-position: top right; 
+  margin: 0;
+  padding: 0;
+}
+
