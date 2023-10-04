@@ -33,6 +33,7 @@ h1 {
     background-image: url(procurado_luffy.jpg); 
     background-repeat: no-repeat;
     background-position: center;
+    opacity: ;
     max-width:519px;
     max-height: 900px;
     height: 800px;
@@ -189,8 +190,55 @@ h1 {
 
 
 
+/* Estilos para pc */
+@media screen and (max-width: 1080px) {
+    header {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .cabecalho {
+        max-width: 100%;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: auto;
+    }
+
+    .container-geral h2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .character img {
+        max-width: 50px;
+    }
+}
 
 
+
+/* Estilos para pc */
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .cabecalho {
+        max-width: 100%;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: auto;
+    }
+
+    .container-geral h2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .character img {
+        max-width: 50px;
+    }
+}
 
 
 
@@ -218,6 +266,30 @@ h1 {
 
 /* Estilos para tablets */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .cabecalho {
+        max-width: 100%;
+        margin-left: 210px;
+        margin-right: 210px;
+    }
+
+    .container-geral h2 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .character img {
+        max-width: 60px;
+    }
+}
+
+
+/* Estilos para tablets */
+@media screen and (min-width: 1000px) and (max-width:1800px) {
     header {
         width: 100%;
         margin-left: 0;
